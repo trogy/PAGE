@@ -365,12 +365,12 @@ height:100%;
                         <br><br>
                         <script>
                         $(document).ready(function(){
-                            $("#orange").load("API/Orange.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                            $("#red").load("API/Red.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                            $("#green").load("API/Green.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                            $("#purple").load("API/Purple.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                            $("#arrivals").load("API/Station.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                            $("#complete").load("API/Jobs.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
+                            $("#orange").load("API/Orange.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                            $("#red").load("API/Red.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                            $("#green").load("API/Green.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                            $("#purple").load("API/Purple.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                            $("#arrivals").load("API/Station.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                            $("#complete").load("API/Jobs.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
                         });
 
                         </script>
@@ -448,18 +448,18 @@ height:100%;
             });
 
             setInterval(function(){
-                $("#red_content").load("API/Change_Red.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#purple_content").load("API/Change_Purple.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#jobs_content").load("API/Change_Jobs.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#orange_content").load("API/Change_Orange.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#green_content").load("API/Change_Green.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#arrivals_content").load("API/Change_Station.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#orange").load("API/Orange.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#red").load("API/Red.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#green").load("API/Green.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#purple").load("API/Purple.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#arrivals").load("API/Station.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
-                $("#complete").load("API/Jobs.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>&rd=<?php echo uniqid('API_', true); echo uniqid('_SESSION_', true);?>");
+                $("#red_content").load("API/Change_Red.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#purple_content").load("API/Change_Purple.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#jobs_content").load("API/Change_Jobs.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#orange_content").load("API/Change_Orange.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#green_content").load("API/Change_Green.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#arrivals_content").load("API/Change_Station.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#orange").load("API/Orange.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#red").load("API/Red.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#green").load("API/Green.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#purple").load("API/Purple.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#arrivals").load("API/Station.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
+                $("#complete").load("API/Jobs.php?k=<?php echo $_COOKIE['DC_SESSION'];?>&iset=<?php echo time();?>");
             }, 5000);
 
 
