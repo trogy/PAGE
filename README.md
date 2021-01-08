@@ -1,6 +1,11 @@
 # PAGE
 An app for decoding ambulance pager signals in New Zealand
 
+This very much a bodge and not meant to be hosted for online public use (local network only)
+
+Sharing radio transmissions not meant for you is illegal use offline ONLY!
+I TAKE NO RESPONSIBILITY FOR ANY LEGAL ISSUES ARRISING FROM YOU USING THIS SOFTWARE USE AT YOUR OWN RISK.
+
 Requirements
 - Windows with XAMPP
 - RTL2832U Based SDR
