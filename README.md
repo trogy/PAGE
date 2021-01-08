@@ -1,7 +1,7 @@
 # PAGE
 An app for decoding ambulance pager signals in New Zealand
 
-YOU MUST PROVIDE YOUR OWN DATA VIA A Software Defined Radio
+YOU MUST PROVIDE YOUR OWN DATA VIA A Software Defined Radio (SDR) for example a RTL2382U based SDR from rtl-sdr.com
 
 This very much a bodge and not meant to be hosted for online public use (local network only)
 
