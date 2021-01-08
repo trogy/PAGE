@@ -345,7 +345,7 @@ height:100%;
                 </ul>
                 <div class="sidebar-user">
                   <div class="sidebar-user-img">
-                    <img src="https://ui-avatars.com/api/?name=North+Shore&background=0D8ABC&color=fff&rounded=true" alt="" style="width:100%;">
+                    <img src="https://ui-avatars.com/api/?name=T+N&background=0D8ABC&color=fff&rounded=true" alt="" style="width:100%;">
                   </div>
                   <div class="sidebar-user-id">
                     <p style="padding-bottom:5px; margin-bottom:0px;">Built By Trogy.NZ</p>
