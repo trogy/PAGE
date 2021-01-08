@@ -4,6 +4,7 @@ An app for decoding ambulance pager signals in New Zealand
 YOU MUST PROVIDE YOUR OWN DATA VIA A Software Defined Radio (SDR) for example a RTL2382U based SDR from rtl-sdr.com
 
 This very much a bodge and not meant to be hosted for online public use (local network only)
+Another issue if you do not have a log file present for the day chrome will eventually run out of memory trying to refresh the boxes.
 
 Sharing radio transmissions not meant for you is illegal use offline ONLY!
 I TAKE NO RESPONSIBILITY FOR ANY LEGAL ISSUES ARRISING FROM YOU USING THIS SOFTWARE USE AT YOUR OWN RISK.
