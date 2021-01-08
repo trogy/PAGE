@@ -1,6 +1,8 @@
 # PAGE
 An app for decoding ambulance pager signals in New Zealand
 
+YOU MUST PROVIDE YOUR OWN DATA VIA A Software Defined Radio (SDR) for example a RTL2382U based SDR from rtl-sdr.com
+
 This very much a bodge and not meant to be hosted for online public use (local network only)
 
 Sharing radio transmissions not meant for you is illegal use offline ONLY!
@@ -11,5 +13,7 @@ Requirements
 - RTL2832U Based SDR
 - SDR# Tuned to pager network (see radiowiki.org.nz)
 - PDW with filters in place for ambulance callsigns and disabled FLEX-A decoding
+
+Log files for PDW must be created in the same folder as index.php
 
 PAGE is provided under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
