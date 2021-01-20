@@ -17,4 +17,4 @@ Requirements
 
 Log files for PDW must be created in the same folder as index.php
 
-PAGE is provided under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License
+PAGE is provided under the Boost Software License - Version 1.0 with "Commons Clause” License Condition v1.0
